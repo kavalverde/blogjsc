@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.login-page {
+  background-color: #363740;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.texto {
+  color: #9fa2b4;
+}

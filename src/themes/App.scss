@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+$light: #ffffff;
+$gray: #c4ccde;
+$dark: #212529;
+.nvbar {
+  background-color: $light;
+  padding: 1rem 2 rem;
+  border-bottom: 1px solid $gray;
+  font-family: "Rubik", sans-serif;
+}
+.sidebar {
+  width: 14rem;
+  min-height: 100vh;
+  border-right: 1px solid $gray;
+  background-color: $dark;
+  ul {
+    list-style: none;
+    padding: 2rem;
+    li {
+      margin-bottom: 3rem;
+      a {
+        text-decoration: none;
+        color: $light;
+      }
+      a:hover {
+        color: $gray;
+      }
+    }
+  }
+}
+a:hover {
+  filter: brightness(130%);
+}
