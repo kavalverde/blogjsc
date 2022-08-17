@@ -11,7 +11,7 @@ const NavbarComponent = () => {
         <Navbar.Brand>
           <Link to="/" style={{ color: "white", textDecoration: "inherit" }}>
             <img src={logoSrc} alt="logo" width="40px" className="mx-3 mb-1" />
-            <span className="fs-5 fw-bold">Movimiento JSC</span>
+            <span className="fs-5 fw-bold">Blogs</span>
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

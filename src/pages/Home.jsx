@@ -269,9 +269,7 @@ const Home = () => {
         <div className="container-fluid w-100">
           <div className="row">
             <div className="col-12 col-md-4 d-flex justify-content-center align-items-center">
-              <h1 className="ms-5 text-center">
-                Movimiento Juventud, Solidaridad y Cambio
-              </h1>
+              <h1 className="ms-5 text-center">Blogs</h1>
             </div>
             <div className="col-12 col-md-8">
               {/* Carousel de imagenes */}
